@@ -1,0 +1,36 @@
+.menu {
+	padding: 15px 15px;
+	background: #DCD7C9;
+	.category {
+		margin: 12px 0 24px;
+	}
+	h2 {
+		margin: 10px 0 20px -30px;
+		padding: 0 20px 0px 30px;
+		border-radius: 0 20px 60px 0;
+		background: #104b4c;
+		color: white;
+		width: auto;
+		display: inline-block;
+		font-size: 32px;
+		font-weight: 400;
+		font-family: "Yellowtail";
+		box-shadow: 2px 2px 0px white, 4px 4px 0px #104b4c, 6px 6px 0px white,
+			8px 8px 0px #104b4c;
+			font-family: "Cascadia Code", sans-serif;	
+	}
+	p {
+		border-bottom: 1px solid #eee;
+		padding-bottom: 12px;
+		font-family: "Cascadia Code", sans-serif;
+		font-size: x-large;
+		&:last-of-type {
+			border: none;
+		}
+	}
+	span {
+	}
+	span + span {
+		float: right;
+	}
+}
